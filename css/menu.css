@@ -1,0 +1,98 @@
+.container .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255, 30%);
+}
+
+.container .nav .nav-items ul .menu a {
+    color: #eca049;
+    text-shadow: 0px 3px 8px #eca049;
+    text-shadow: 1px 1px 2px #232126;
+    text-decoration: none;
+}
+
+.container .body {
+    margin: 15px auto;
+    width: 75%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, 300px);
+    grid-template-areas: "1st 1st 1st 2nd 2nd 2nd 3rd 3rd 3rd 4th 4th 4th" "5th 5th 5th 6th 6th 6th";
+}
+
+.container .body div {
+    background-color: #232126;
+    border: 2px solid rgb(255, 255, 255, 30%);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.container .body div img {
+    width: 100px;
+    height: 100px;
+}
+
+.container .body div h4 {
+    width: 100%;
+    margin: -15px auto 0;
+    text-align: center;
+}
+
+.container .body div p {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.container .body div p::after {
+    content: "$20.99";
+    margin-left: 4px;
+    font-size: small;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+.container .body .product1 {
+    grid-area: 1st;
+}
+
+.container .body .product2 {
+    grid-area: 2nd;
+}
+
+.container .body .product3 {
+    grid-area: 3rd;
+}
+
+.container .body .product4 {
+    grid-area: 4th;
+}
+
+.container .body .product5 {
+    grid-area: 5th;
+}
+
+.container .body .product6 {
+    grid-area: 6th;
+}
+
+.container .body button {
+    padding: 12px 30px;
+    font-size: 15px;
+    background-color: #eca049;
+    color: white;
+    box-shadow: 1px 1px 6px 1px #eca049;
+}
+
+.container .body button:hover {
+    background-color: #232126;
+    color: #eca049;
+    border: none;
+}

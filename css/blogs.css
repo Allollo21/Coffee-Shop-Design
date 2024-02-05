@@ -1,0 +1,88 @@
+.container .nav .nav-items ul .blogs a {
+    color: #eca049;
+    text-shadow: 0px 3px 8px #eca049;
+    text-shadow: 1px 1px 2px #232126;
+    text-decoration: none;
+}
+
+.container .body {
+    margin: 50px auto;
+    width: 100%;
+}
+
+.container .body .header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: system-ui;
+    margin-bottom: 30px;
+    text-shadow: 2px 6px 8px #eca049;
+}
+
+.container .body .header span {
+    color: #eca049;
+    text-shadow: 2px 1px 2px white;
+}
+
+.container .body .blogs {
+    margin: 40px auto;
+    width: 82%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container .body .blog1,
+.container .body .blog2,
+.container .body .blog3 {
+    width: 400px;
+    height: 470px;
+    background-color: #232126;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.container .body .blog1 img,
+.container .body .blog2 img,
+.container .body .blog3 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 6px 6px 0 0;
+}
+
+.container .body .blog1 .photo-label,
+.container .body .blog2 .photo-label,
+.container .body .blog3 .photo-label {
+    font-size: 25px;
+    padding: 10px 0 5px 15px;
+}
+
+.container .body .blog1 .photo-details,
+.container .body .blog2 .photo-details,
+.container .body .blog3 .photo-details {
+    color: #e07f0f;
+    padding: 0 0 5px 11px;
+    font-size: 12px;
+}
+
+.container .body .blog1 .label,
+.container .body .blog2 .label,
+.container .body .blog3 .label {
+    font-size: 14px;
+    padding: 10px 0 5px 11px;
+}
+
+.container .body .blogs button {
+    padding: 12px 30px;
+    margin: 40px 120px;
+    background-color: #eca049;
+    font-size: 18px;
+    box-shadow: 2px 4px 15px -1px #eca049;
+}
+
+.container .body button:hover {
+    background-color: #232126;
+    border: 2px solid #eca049;
+    color: #eca049;
+}
