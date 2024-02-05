@@ -1,13 +1,12 @@
-# Allawy Coffee
+# Allawy Coffee Shop
 
 Allawy Coffee is a front end website created using HTML and CSS. It showcases the products and services of a fictional coffee shop.
 
 ## Features
 
-- Responsive design that adapts to different screen sizes and devices
 - Elegant and minimalist layout with soothing colors and fonts
 - Smooth scrolling and navigation with a sticky header and a back-to-top button
-- Interactive elements such as a carousel, a modal, and a contact form
+- Interactive elements
 - Social media icons and links to connect with the coffee shop
 
 ## Installation
@@ -25,10 +24,7 @@ You can use this project as a reference or inspiration for your own front end we
 Some possible improvements or additions are:
 
 - Adding a footer with more information and links
-- Adding a menu page with the coffee shop's offerings
-- Adding a blog page with articles and tips about coffee
-- Adding animations and transitions to enhance the user experience
-- Adding validation and functionality to the contact form
+- Adding more animations and transitions to enhance the user experience
 
 ## Contributing
 
